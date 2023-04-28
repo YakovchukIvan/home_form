@@ -37,7 +37,7 @@ section {
   align-items: center;
   background-color: white;
   width: 50%;
-  border: 1px solid rgb(65, 62, 99);
+  /* border: 1px solid rgb(65, 62, 99); */
   padding: 40px;
 }
 
@@ -53,6 +53,12 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -61,10 +67,6 @@ ul {
   list-style-type: none;
   color: #103a61;
 }
-
-
-
-
 
 form {
   min-width: 350px;
@@ -81,5 +83,22 @@ input {
 }
 
 button {
-  margin-bottom: 20px;
+  background: #4a88c2;
+  border: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  margin: 20px 0px;
+}
+
+.open {
+  align-self: center;
+}
+
+.open > a {
+  color: #4a88c2;
+}
+
+.open>a:nth-child(1) {
+  text-decoration: none;
+  color: grey;
 }
